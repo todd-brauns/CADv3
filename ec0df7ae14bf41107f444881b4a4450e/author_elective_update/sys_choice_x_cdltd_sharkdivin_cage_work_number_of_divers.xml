@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="number_of_divers" table="x_cdltd_sharkdivin_cage_work" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>number_of_divers</element>
+            <name>x_cdltd_sharkdivin_cage_work</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 18:32:07</sys_created_on>
+            <sys_id>82cdf3ee14bf41107f444881b4a44555</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>number_of_divers</sys_name>
+            <sys_package display_value="SharkDiving" source="x_cdltd_sharkdivin">ec0df7ae14bf41107f444881b4a4450e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SharkDiving">ec0df7ae14bf41107f444881b4a4450e</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_sharkdivin_cage_work_number_of_divers</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 18:32:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_divers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 Diver</label>
+            <language>en</language>
+            <name>x_cdltd_sharkdivin_cage_work</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 18:32:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ecdf3ee14bf41107f444881b4a44554</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 18:32:07</sys_updated_on>
+            <value>1_diver</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_divers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 to 4 Divers</label>
+            <language>en</language>
+            <name>x_cdltd_sharkdivin_cage_work</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 18:32:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4acdf3ee14bf41107f444881b4a44557</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 18:32:07</sys_updated_on>
+            <value>2_to_4_divers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_divers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 or more Divers</label>
+            <language>en</language>
+            <name>x_cdltd_sharkdivin_cage_work</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 18:32:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ecdf3ee14bf41107f444881b4a44559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 18:32:07</sys_updated_on>
+            <value>5_or_more_divers</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

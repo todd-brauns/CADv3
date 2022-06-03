@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cage Work" max_length="40" name="x_cdltd_sharkdivin_cage_work" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cage Size" max_length="40" name="cage_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Large" value="large"/>
+                <element inactive_on_update="false" label="Medium" value="medium"/>
+                <element inactive_on_update="false" label="Small" value="small"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Number of Divers" mandatory="true" max_length="40" name="number_of_divers" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 Diver" value="1_diver"/>
+                <element inactive_on_update="false" label="2 to 4 Divers" value="2_to_4_divers"/>
+                <element inactive_on_update="false" label="5 or more Divers" value="5_or_more_divers"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Reservation Date" mandatory="true" max_length="40" name="reservation_date" type="glide_date"/>
+        <element label="Reservation Duration" mandatory="true" max_length="40" name="reservation_duration" type="glide_time"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
